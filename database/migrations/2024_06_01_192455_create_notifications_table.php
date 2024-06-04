@@ -12,7 +12,7 @@ class CreateNotificationsTable extends Migration
             $table->id('notificationId');
             $table->unsignedBigInteger('utilisateurId');
             $table->string('message');
-            $table->date('dateEnvoi');
+            $table->dateTime('dateEnvoi');
             $table->boolean('lu');
             $table->timestamps();
 

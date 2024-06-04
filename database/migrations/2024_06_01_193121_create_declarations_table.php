@@ -14,8 +14,8 @@ class CreateDeclarationsTable extends Migration
             $table->string('nomProprio');
             $table->string('prenomProprio');
             $table->string('telephoneProprio');
-            $table->string('lieuLong');
-            $table->string('lieuLat');
+            $table->double('lieuLong');
+            $table->double('lieuLat');
             $table->binary('photoCarteGrise');
             $table->string('numChassis');
             $table->string('numPlaque');
